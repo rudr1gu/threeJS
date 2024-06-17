@@ -3,7 +3,7 @@ import * as THREE from 'three';
 const scene = new THREE.Scene();
 
 const loader = new THREE.TextureLoader();
-loader.load('/img/image.jpg', function(texture) {
+loader.load('/img/teste.jpg', function(texture) {
     const geometry = new THREE.PlaneGeometry(2,2,1);
     const material = new THREE.MeshBasicMaterial({
         map: texture,

@@ -4,34 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Projeto Three.js</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body, html {
-            height: 100vh;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        canvas { display: block; }
-        header {
-            position: absolute;
-            background-color: #33333333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            backdrop-filter: blur(5px);
-        }
-    </style>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        Rudr1gu
-    </header>
+    <main>
+        <section class="foto">
+        </section>
+        <section class="bio">
+            <h4>Rodrigo Santos</h4>
+            <p>I'm a System Development Student. </p>
+        </section>
+        <section class="rSociais">
+            <ul>
+                <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
+                <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                <li><a href="#"><i class='bx bxl-github'></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+            </ul>
+        </section>
+    </main>
     <script type="module" src="./main.js"></script>
 </body>
 </html>
